@@ -1,7 +1,7 @@
 <html>
  	<head>
   	    <title>webservice</title>
- 	    </head>
+ 	</head>
  	<body>
  	    	<?php
 					include "conn.php";
@@ -11,7 +11,7 @@
 					echo '<h1>webservice</h1>';
 
 					// Get fields
-					$sql = "DESCRIBE autori";
+					$sql = "DESCRIBE authors";
 					$result = $conn->query($sql);
 					$fields = array();
 
@@ -20,7 +20,7 @@
 					}
 
 					// Get elementt
-					$sql = "SELECT * FROM autori";
+					$sql = "SELECT * FROM authors";
 					$result = $conn->query($sql);
 
 					if ($result->num_rows > 0) {
@@ -43,7 +43,7 @@
 						// End table
 						echo "</table>";
 					} else {
-						echo "no autors";
+						echo "no authors";
 					}
 
 					close_connection($conn);
