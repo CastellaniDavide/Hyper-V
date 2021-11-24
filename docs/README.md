@@ -19,7 +19,7 @@
   - [Creazione di una pagina PHP e collegarla col DB](#creazione-di-una-pagina-php-e-collegarla-col-db)
   - [Separazione dei servizi](#separazione-dei-servizi)
   - [Impostazione URL](#impostazione-url)
-  - [Firewall (gestione porte)](#firewall--gestione-porte-)
+  - [Firewall (gestione porte)](#firewall-gestione-porte)
 
 ---
 
