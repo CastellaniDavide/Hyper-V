@@ -170,6 +170,7 @@ Windows:
 - [ ] Salvare e chiudere il file
 - [ ] Andare nel file nella path della riga appena decommentata (la path è relativa a XAMPP, su Linux `/opt/lampp/...`)
 - [ ] Aggiungere sostituendo le scritte in maiuscolo con i propri valori: 
+
 ```
 <VirtualHost *:80>
     ServerName SITO 
@@ -181,6 +182,7 @@ Windows:
     </Directory>
 </VirtualHost>
 ```
+
 - [ ] Salvare e chiudere il file
 - [ ] Restartare il servizio Apache
 - [ ] Provare la corretta funzionalità
