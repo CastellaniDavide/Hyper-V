@@ -20,6 +20,7 @@
   - [Separazione dei servizi](#separazione-dei-servizi)
   - [Impostazione URL](#impostazione-url)
   - [Firewall (gestione porte)](#firewall-gestione-porte)
+  - [Configurare Apache per supportare più siti web](#configurare-apache-per-supportare-più-siti-web)
 
 ---
 
@@ -156,3 +157,30 @@ Windows:
   - [ ] Scegliere se abilitare o disabilitare & `Avanti`
   - [ ] `Avanti`
   - [ ] Assegnare un nome e una descrizione & `Fine`
+
+---
+
+## Configurare Apache per supportare più siti web
+
+- [ ] Aprire XAMPP in modalità grafica
+- [ ] Andare nella pagina dei servizi
+- [ ] Selezionare Apache
+- [ ] Nel menu di destra premere `Configure`
+- [ ] Decommentare l'istruzione per l'importazione delle molteplici configurazioni chiamato `httpd-vhosts.conf` (circa a riga 488)
+- [ ] Salvare e chiudere il file
+- [ ] Andare nel file nella path della riga appena decommentata (la path è relativa a XAMPP, su Linux `/opt/lampp/...`)
+- [ ] Aggiungere sostituendo le scritte in maiuscolo con i propri valori: 
+```
+<VirtualHost *:80>
+    ServerName SITO 
+    ServerAlias ALIAS_SITO
+    DocumentRoot PATH
+    <Directory PATH>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+```
+- [ ] Salvare e chiudere il file
+- [ ] Restartare il servizio Apache
+- [ ] Provare la corretta funzionalità
