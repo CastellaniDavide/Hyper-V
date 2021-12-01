@@ -1,8 +1,8 @@
 # Hyper-V versione client
 
-[![GitHub license](https://img.shields.io/badge/license-GNU-green?style=flat)](https://github.com/CastellaniDavide/cpp-webservice/blob/master/LICENSE)
-![Author](https://img.shields.io/badge/author-Bellamoli%20Riccardo-green?style=flat) 
-![Author](https://img.shields.io/badge/author-Castellani%20Davide-green?style=flat) 
+[![GitHub license](https://img.shields.io/badge/License-GNU-brightgreen?style=flat)](https://github.com/CastellaniDavide/cpp-webservice/blob/master/LICENSE)
+![Author](https://img.shields.io/badge/Author-Bellamoli%20Riccardo-blue?style=flat) 
+![Author](https://img.shields.io/badge/Author-Castellani%20Davide-blue?style=flat) 
 
 ---
 
